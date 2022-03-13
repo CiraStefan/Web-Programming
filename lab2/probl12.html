@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .vertical-left-line{
+        top:2vh;
+        left:2vw;
+        height: 97vh;
+        width: 0.5vw;
+        /*background-color: blueviolet;*/
+        background-image: linear-gradient(to bottom, rgba(255,0,0,0), #8A2BE2FF, rgba(255,0,0,0));
+        position: absolute;
+    }
+    .vertical-right-line{
+        top:2vh;
+        left:98vw;
+        height: 97vh;
+        margin-bottom: 2vh;
+        width: 0.5vw;
+        background-image: linear-gradient(to bottom, rgba(255,0,0,0), #8A2BE2FF, rgba(255,0,0,0));
+        position: absolute;
+    }
+    .horizontal-up-line {
+        top: 2vh;
+        left: 2vw;
+        margin-right: 2vw;
+        width: 96vw;
+        height: 1vh;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #8A2BE2FF, rgba(255, 0, 0, 0));
+    }
+    .horizontal-down-line {
+        top: 98vh;
+        left: 2vw;
+        width: 96vw;
+        height: 1vh;
+        position: absolute;
+        background-image: linear-gradient(to left, rgba(255, 0, 0, 0), #8A2BE2FF, rgba(255, 0, 0, 0));
+    }
+</style>
+<body>
+<!--    <div>-->
+<!--        <svg height="100vh" width="100vw">-->
+<!--&lt;!&ndash;       horizontal up line     &ndash;&gt;-->
+<!--            <line x1="2vw" y1="2vh" x2="95vw" y2="2vh" style="position: absolute;stroke: blueviolet;stroke-width: 2;" />-->
+<!--&lt;!&ndash;          vertical left  &ndash;&gt;-->
+<!--            <line x1="2vw" y1="2vh" x2="2vw" y2="95vh" style="position: absolute; stroke: blueviolet;stroke-width: 2;" />-->
+<!--&lt;!&ndash;            horizontal down&ndash;&gt;-->
+<!--            <line x1="2vw" y1="95vh" x2="95vw" y2="95vh" style="position: absolute; stroke: blueviolet;stroke-width: 2;" />-->
+<!--&lt;!&ndash;            vertical right&ndash;&gt;-->
+<!--            <line x1="95vw" y1="2vh" x2="95vw" y2="95vh" style="position: absolute; stroke: blueviolet;stroke-width: 2;" />-->
+<!--        </svg>-->
+<!--    </div>-->
+    <div class="vertical-left-line"></div>
+    <div class="vertical-right-line"></div>
+    <div class="horizontal-up-line"></div>
+    <div class="horizontal-down-line"></div>
+</body>
+</html>

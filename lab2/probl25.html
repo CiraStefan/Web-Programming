@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<style>
+    .circle-animation {
+        position: relative;
+        animation-name: hover;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-fill-mode: backwards;
+        animation-play-state: paused;
+    }
+    .circle-animation:active,
+    .circle-animation:focus,
+    .circle-animation:hover {
+        animation-play-state: running;
+        animation-fill-mode: forwards;
+    }
+
+    @keyframes hover {
+        0%{cx: 50vw; cy:10vh}
+        50%{cx: 50vw; cy:90vh}
+        100%{cx: 50vw; cy:10vh}
+    }
+</style>
+<body>
+    <svg height="100vh" width="100vw">
+        <circle r="4vw" cx="50vw" cy="10vh" class="circle-animation" stroke="black" stroke-width="3" fill="blueviolet" />
+    </svg>
+</body>
+</html>
