@@ -5,7 +5,7 @@
 .header1-container{
     border-bottom: 1px solid #e2e2e2;
     height: 36px;
-    margin-left: 5vw;
+    margin-left: 10vw;
     flex-flow: row wrap;
     justify-content: space-between;
     position: relative;
@@ -128,7 +128,7 @@
 
 .container {  display: grid;
     width: 80vw;
-    margin-left: 10vw;
+    margin-left: 15vw;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 1.3fr 1.2fr 0.5fr;
     gap: 0px 0px;
@@ -150,7 +150,7 @@
 .News1 { 
   grid-area: News1; 
   width: 15vw;
-  height: 23vh;
+  height: 38.5vh;
   border-bottom: 1px solid gray;
   margin-right: 20px;
 }
@@ -194,7 +194,7 @@ li{
     grid-area: News2;
     width: 15vw;
     height: 23vh;
-    margin-top: 24vh;
+    margin-top: 40vh;
     position: absolute;
 }
   
@@ -215,7 +215,7 @@ li{
     position: absolute;
     width: 12.5vw;
     height: 10vh;
-    margin-top: 47vh;
+    margin-top: 60vh;
     padding-top: 25px;
     border-top: 1px solid gray;
     border-right: 1px solid gray;
@@ -226,7 +226,7 @@ li{
     position: absolute;
     width: 15vw;
     height: 10vh;
-    margin-top: 47vh;
+    margin-top: 60vh;
     padding-top: 25px;
     margin-left: 12.5vw;
     padding-left: 1vw;
@@ -238,7 +238,7 @@ li{
     position: absolute;
     width: 12.5vw;
     height: 10vh;
-    margin-top: 47vh;
+    margin-top: 60vh;
     padding-top: 25px;
     border-top: 1px solid gray;
     border-right: 1px solid gray;
@@ -250,7 +250,7 @@ li{
     position: absolute;
     width: 12.5vw;
     height: 10vh;
-    margin-top: 47vh;
+    margin-top: 60vh;
     padding-top: 25px;
     border-top: 1px solid gray;
     border-right: 1px solid gray;
@@ -262,7 +262,7 @@ li{
     position: absolute;
     width: 12.5vw;
     height: 10vh;
-    margin-top: 47vh;
+    margin-top: 60vh;
     padding-top: 25px;
     border-top: 1px solid gray;
     margin-left: 55vw;

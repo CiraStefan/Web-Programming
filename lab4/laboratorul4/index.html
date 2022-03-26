@@ -1,0 +1,47 @@
+<script language="JavaScript" type="text/javascript">
+    function bigImg(x) {
+        var newId = parseInt(x.id) + 5
+        document.getElementById(newId.toString()).style.visibility = "visible"
+    }
+    function normalImg(x){
+        var newId = parseInt(x.id) + 5
+        document.getElementById(newId.toString()).style.visibility = "hidden"
+    } 
+</script>
+<style>
+    .main-container {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .images-row {
+        align-items: center;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+    }
+
+    .min {
+        width: 5vw;
+        height: 5vh;
+    }
+</style>
+<div class="main-container">
+    <div class="images-row">
+        <img src="assets/image1.jpg" class="min" id="1" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        <img src="assets/image2.jpg" class="min" id="2" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        <img src="assets/image3.jpg" class="min" id="3" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        <img src="assets/image4.jpg" class="min" id="4" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+        <img src="assets/image5.jpg" class="min" id="5" onmouseover="bigImg(this)" onmouseout="normalImg(this)">
+    </div>
+    <div class="images-row">
+        <img src="assets/image1.jpg" style="visibility: hidden;" id="6" >
+        <img src="assets/image2.jpg" style="visibility: hidden;" id="7" >
+        <img src="assets/image3.jpg" style="visibility: hidden;" id="8" >
+        <img src="assets/image4.jpg" style="visibility: hidden;" id="9" >
+        <img src="assets/image5.jpg" style="visibility: hidden;" id="10" >
+    </div>
+</div>
